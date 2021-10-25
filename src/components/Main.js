@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div className="text-center px-3 lg:px-0">
-        <p className="leading-normal md:ml-40 text-left text-gray-800 text-base md:text-xl lg:text-2xl mb-8">
+        <p className="leading-normal mx-4 md:mr-16 md:ml-40 text-left text-gray-800 text-base md:text-xl lg:text-2xl mb-8">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
