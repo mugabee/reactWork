@@ -11,7 +11,7 @@ export default class Footer extends Component {
                 <span className="my-2">
                   <a
                     href="#"
-                    className="text-blue-700  text-md hover:text-blue-500"
+                    className="text-black  text-md hover:text-blue-500"
                   >
                     ⭐ Home
                   </a>
@@ -19,7 +19,7 @@ export default class Footer extends Component {
                 <span className="my-2">
                   <a
                     href="#"
-                    className="text-blue-700  text-md hover:text-blue-500"
+                    className="text-black  text-md hover:text-blue-500"
                   >
                     🖤 About
                   </a>
@@ -27,7 +27,7 @@ export default class Footer extends Component {
                 <span className="my-2">
                   <a
                     href="#"
-                    className="text-blue-700  text-md hover:text-blue-500"
+                    className="text-black  text-md hover:text-blue-500"
                   >
                     ⚫ Contact Us
                   </a>
@@ -37,7 +37,7 @@ export default class Footer extends Component {
                 <span className="my-2">
                   <a
                     href="#"
-                    className="text-blue-700 text-md hover:text-blue-500"
+                    className="text-black text-md hover:text-blue-500"
                   >
                     Africa
                   </a>
@@ -45,7 +45,7 @@ export default class Footer extends Component {
                 <span className="my-2">
                   <a
                     href="#"
-                    className="text-blue-700  text-md hover:text-blue-500"
+                    className="text-black  text-md hover:text-blue-500"
                   >
                     America
                   </a>
@@ -53,7 +53,7 @@ export default class Footer extends Component {
                 <span className="my-2">
                   <a
                     href="#"
-                    className="text-blue-700 text-md hover:text-blue-500"
+                    className="text-black text-md hover:text-blue-500"
                   >
                     Europe
                   </a>
@@ -62,12 +62,10 @@ export default class Footer extends Component {
             </div>
           </div>
         </div>
-        <div className="container mx-auto px-6">
+        <div className="mx-auto px-6">
           <div className="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
             <div className="sm:w-2/3 text-center py-6">
-              <p className="text-sm text-blue-700 font-bold mb-2">
-                © Zatec 2021
-              </p>
+              <p className="text-sm text-black font-bold mb-2">© Zatec 2021</p>
             </div>
           </div>
         </div>
