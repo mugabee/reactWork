@@ -17,9 +17,9 @@ export default class Navbar extends Component {
   render() {
     const { isOpen } = this.state;
     const menuOpen =
-      "w-full flex-grow lg:flex lg:items-center lg:w-auto  lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20";
+      "w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20";
     const menuClosed =
-      "w-full flex-grow lg:flex lg:items-center lg:w-auto  hidden lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20";
+      "w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20";
     return (
       <nav className="w-full z-30 top-0 text-black py-1 lg:py-6">
         <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-2 lg:py-6">
