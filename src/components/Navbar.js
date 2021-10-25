@@ -52,7 +52,7 @@ export default class Navbar extends Component {
                   className="inline-block py-2 px-4 text-black font-bold no-underline"
                   href="#"
                 >
-                  Active
+                  Home
                 </a>
               </li>
               <li className="mr-3">
@@ -60,7 +60,7 @@ export default class Navbar extends Component {
                   className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                   href="#"
                 >
-                  link
+                  About Us
                 </a>
               </li>
               <li className="mr-3">
@@ -68,16 +68,10 @@ export default class Navbar extends Component {
                   className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                   href="#"
                 >
-                  link
+                  Contact Us
                 </a>
               </li>
             </ul>
-            <button
-              id="navAction"
-              className="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
-            >
-              Action
-            </button>
           </div>
         </div>
       </nav>
