@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Sidebar extends Component {
   render() {
     return (
-      <div className="w-full md:w-36 bg-blue-500 md:bg-blue-500  px-2 mt-40 md:rounded-r-3xl text-center fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-10 md:h-64  md:border-r-4 md:border-gray-600">
+      <div className="w-full md:w-32 bg-blue-500 md:bg-blue-500  px-2 mt-40 md:rounded-r-3xl text-center fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-10 md:h-64  md:border-r-4 md:border-gray-600">
         <div className="md:relative mx-auto lg:float-right lg:px-6">
           <ul className="list-reset flex flex-row md:flex-col text-center md:text-left">
             <li className="mr-3 flex-1">
